@@ -9,8 +9,13 @@
     <h1>Aprendendo Javascript</h1>
 
     <script type="text/javascript">
-        let msg = "Seja bem vindo ao javascript";
-        window.alert(msg);
+       let nome = window.prompt("Digite o seu nome: ");
+       if (nome) {
+           window.alert("Olá " + nome + ". Entrando valores com JS. ");
+       } else {
+        window.alert("Você não digitou nenhum nome!");
+       }
+
     </script>
 </body>
 </html>
